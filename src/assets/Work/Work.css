@@ -1,0 +1,30 @@
+.work{
+  background: url("../imgs/m3.png");
+  background-repeat: repeat;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+}
+
+.work .container{
+  position: relative;
+  background-color: #C98A40;
+  color: white;
+  z-index: 222;
+}
+
+.work .work-item{
+  overflow: hidden;
+}
+
+.work .work-item img{
+  transition: all 0.4s;
+}
+
+.work .work-item img:hover{
+  cursor: pointer;
+  transform: scale(110%);
+}
+
+
+

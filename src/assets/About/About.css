@@ -1,0 +1,16 @@
+.about{
+    color:#C98A40 ;
+    position: relative;
+    z-index:111;
+}
+
+.about p{
+  text-align: center; 
+ }
+
+ .recipes-title{
+  font-size: 50px;
+  text-transform: capitalize;
+  font-weight: 800;
+  color: #C98A40;
+}

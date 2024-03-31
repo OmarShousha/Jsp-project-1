@@ -1,0 +1,16 @@
+.recipes-title{
+  font-size: 50px;
+  text-transform: capitalize;
+  font-weight: 800;
+  color: #C98A40;
+  /* background-color: red; */
+}
+
+.card{
+  --bs-card-border-width:1px;
+  --bs-card-border-color:#C98A40;
+}
+
+.card h5{
+  color: #C98A40;
+}

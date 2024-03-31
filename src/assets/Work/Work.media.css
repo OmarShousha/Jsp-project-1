@@ -1,0 +1,150 @@
+ /*? ===========> Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+  /** ====>Home Section<===== */
+
+  .home{
+    color: #C98A40;
+  }
+
+  .home p{
+    text-align: left;
+  }
+
+  .home .home-title{
+    font-size: 65px;
+  }
+
+  .home .phone{
+    bottom: 0;
+    color: #fff;
+    left: 30%;
+  }
+
+  .home .new-icons{
+    bottom: 5%;
+    left: 23%;
+    color: #C98A40;
+  }
+  /** ==================><=========== */
+  .title{
+    font-size: 60px;
+  }
+
+  .work p{
+    width: 60%;
+  } 
+
+  .recipes-title{
+    font-size: 85px;
+  }
+
+  .about .about-title{
+    font-size: 60px;
+    font-weight: 800;
+  }
+  
+  .testymonials .test-title{
+    font-size: 60px;
+    /* background-color: red; */
+  }
+
+  .contact .contact-title{
+    font-size: 60px;
+  }
+
+ }
+ 
+ /*? ===========> Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+  /* *==========================>><<=========================== */
+
+  .home{
+    color: #fff;
+  }
+  .home-layer{
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    background-color: #C98A40;
+    z-index: -1;
+  }
+
+  .home-layer::after{
+    content: '';
+    position: absolute;
+    width: 400px;
+    height: 190px;
+    background-color: #fff;
+    bottom: 0;
+  }
+
+  .icons-row{
+    display: none;
+  }
+
+  /* *==========================>><<=========================== */
+  .work .container{
+    background-color: transparent;
+    color: #C98A40;
+  }
+
+  .work p{
+    color:#C98A40 ;
+  }
+
+  .title{
+    font-size: 85px;
+    text-align: right;
+  }
+
+  .about .about-title{
+    font-size: 85px;
+    font-weight: 800;
+  }
+
+  .layer-work{
+    width: 57%;
+    height: 100vh;
+    position: absolute;
+    background-color: #C98A40;
+    z-index: 0;
+    right: 0;
+  }
+  .layer-about{
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    background-color: #C98A40;
+    z-index: -1;
+    left: 0;
+  }
+
+  .about p, h1{
+    color: #fff;
+  }
+
+  .testymonials .test-title{
+    font-size: 90px;
+    /* background-color: red; */
+  }
+
+  .contact .contact-title{
+    font-size: 85px;
+  
+  }
+  
+
+  
+ }
+ 
+ /* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }
+ 
+ /* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+ }

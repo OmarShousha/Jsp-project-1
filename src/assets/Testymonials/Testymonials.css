@@ -1,0 +1,19 @@
+.testymonials{
+  background-color: #C98A40;
+  background-image: url('../imgs/b5.png') ;
+}
+
+.testymonials .test-title{
+  font-size: 45px;
+  color: #fff;
+  font-weight: 800;
+}
+
+.testymonials h4{
+  font-weight: 800;
+  color: #C98A40;
+}
+
+.testymonials i{
+  color: #C98A40;
+}

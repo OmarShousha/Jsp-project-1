@@ -1,0 +1,27 @@
+.home{
+  background-image: url('../imgs/m3.png');
+  color: #C98A40;
+  position: relative;
+}
+
+.home p{
+  text-align: center;
+}
+
+.home .home-content{
+  margin-top: 56px;
+}
+
+
+.home .home-title{
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.home .icons{
+  display: flex;
+  justify-content: center;
+}
+
+
+
