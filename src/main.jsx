@@ -11,7 +11,6 @@ import './assets/About/About.css'
 import './assets/Recipes/Recipes.css'
 import './assets/Testymonials/Testymonials.css'
 import './assets/Contact/Contact.css'
-import './assets/Work/Work.media.css'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
